@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+int a=123; //initializing
+printf("Enter a Number\n");
+scanf("%d",&a);
+if(a%3==0)
+{
+    printf("Number %d is divisible by 3\n",a);
+}
+else if(a%3==1)
+{
+    printf("Number %d is not divisible by 3 and rem=1\n",a);
+}
+else
+{
+    printf("Number %d is not divisible by 3 and rem=1\n",a);
+}
+
+}
+/* conditional statements
+1. if else..if
+
+syntax
+if(condition)
+{
+    code;
+}
+else
+{
+
+}
+
+*/
